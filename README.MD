@@ -3,6 +3,19 @@
 A collection of small things I played around with,
 that are not worth an own project.
 
+## boustrophedon
+Generates a [boustrophedon](https://en.wikipedia.org/wiki/Boustrophedon) from a given Text.
+Usage:
+```
+boustrophedon.ApplyToText("Some test text")
+```
+
+## numbertrainer
+Practice chinese numbers 1-100 active, passive or pin yin
+Usage:
+```
+$ go run numbertrainer
+```
 
 ## Shut - Simple Sleep Timer
 Usage:
@@ -34,6 +47,7 @@ time            status  last    total
 
 
 ## Benchme - HTTP Request benchmark
+This is an experimental project, please use battle-proofed benchmark tools for your real benchmarks (like JMeter)
 Executes a Request N times for measuring response time.
 Uses github.com/rcrowley/go-metrics to collect and present results.
 Sample usage:
